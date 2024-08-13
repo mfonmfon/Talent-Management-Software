@@ -78,6 +78,6 @@ class JobPostServicesImplTest {
     @Test
     public void testThat_findJobPostByTitle(){
         AddJobPostRequest request = new AddJobPostRequest();
-
+        
     }
 }
