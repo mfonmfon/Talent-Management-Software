@@ -8,6 +8,7 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 public class AddJobPostRequest {
+    private String userId;
     private String jobTitle;
     private String jobDescription;
     private String fixedPrice;

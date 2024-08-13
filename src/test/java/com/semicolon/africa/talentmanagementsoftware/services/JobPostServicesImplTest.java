@@ -75,9 +75,18 @@ class JobPostServicesImplTest {
         assertThat(response.getMessage()).contains("Post Deleted");
     }
 
-    @Test
-    public void testThat_findJobPostByTitle(){
-        AddJobPostRequest request = new AddJobPostRequest();
-        
-    }
+//    @Test
+//    public void testThatJobPost_searchPostByJobTitle(){
+//        AddJobPostRequest request = new AddJobPostRequest();
+//        request.setJobTitle("Software Engineer");
+//        request.setJobDescription("must be an expert and can write all our software");
+//        request.setSkills("Backend Engineer");
+//        request.setCompany("Chartered Standard Bank");
+//        request.setFixedPrice("50000");
+//        request.setLocation("Lagos");
+//        request.setDateCreated(LocalDateTime.now());
+//        AddJobPostResponse response = jobPostService.createPost(request);
+//        assertEquals();
+//    }
+
 }
