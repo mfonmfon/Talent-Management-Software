@@ -67,6 +67,4 @@ public class JobPostServicesImpl implements  JobPostService{
         response.setMessage("Post Deleted");
         return response;
     }
-
-
 }
