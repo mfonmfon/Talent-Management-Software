@@ -53,7 +53,6 @@ public class JobPostServicesImpl implements  JobPostService{
         response.setMessage("Post Updated");
         return response;
     }
-
     @Override
     public DeleteJobPostResponse deletePost(AddJobPostRequest request) {
         JobPost jobPost = findPostById(request.getUserId());
