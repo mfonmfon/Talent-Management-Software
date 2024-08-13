@@ -7,6 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class TalentManagementSoftwareApplication {
     public static void main(String[] args) {
         SpringApplication.run(TalentManagementSoftwareApplication.class, args);
-    }
 
+    }
 }

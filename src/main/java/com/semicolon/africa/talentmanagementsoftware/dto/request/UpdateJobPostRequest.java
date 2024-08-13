@@ -7,15 +7,13 @@ import java.time.LocalDateTime;
 
 @Getter
 @Setter
-public class AddJobPostRequest {
+public class UpdateJobPostRequest {
     private String jobTitle;
     private String jobDescription;
-    private String fixedPrice;
     private String skills;
+    private String fixedPrice;
     private String company;
-    private String Location;
+    private String jobLocation;
     private String jobLink;
-    private LocalDateTime dateCreated = LocalDateTime.now();
     private LocalDateTime dateUpdated;
-
 }

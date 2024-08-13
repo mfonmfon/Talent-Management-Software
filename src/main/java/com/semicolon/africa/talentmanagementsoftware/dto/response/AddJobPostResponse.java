@@ -1,13 +1,15 @@
-package com.semicolon.africa.talentmanagementsoftware.dto.request;
+package com.semicolon.africa.talentmanagementsoftware.dto.response;
 
 import lombok.Getter;
 import lombok.Setter;
+import org.springframework.data.annotation.Id;
 
 import java.time.LocalDateTime;
 
-@Getter
 @Setter
-public class AddJobPostRequest {
+@Getter
+public class AddJobPostResponse {
+    private String postId;
     private String jobTitle;
     private String jobDescription;
     private String fixedPrice;
@@ -17,5 +19,5 @@ public class AddJobPostRequest {
     private String jobLink;
     private LocalDateTime dateCreated = LocalDateTime.now();
     private LocalDateTime dateUpdated;
-
+    private String message;
 }
